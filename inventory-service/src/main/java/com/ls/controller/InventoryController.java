@@ -3,11 +3,10 @@ package com.ls.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.ls.config.DataResult;
 import com.ls.entity.Inventory;
+import com.ls.exception.DataResult;
 import com.ls.service.IInventoryService;
 import io.swagger.annotations.ApiOperation;
-import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.web.bind.annotation.*;
 
